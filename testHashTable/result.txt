@@ -1,0 +1,86 @@
+[constructor] - khoi tao thanh cong
++ m = 1000
++ output file = result.txt
+[insert 5] - thanh cong
++ key = 5
++ hash value = 90
++ xung dot = [khong]
+[insert 10] - thanh cong
++ key = 10
++ hash value = 180
++ xung dot = [khong]
+[insert 3] - thanh cong
++ key = 3
++ hash value = 854
++ xung dot = [khong]
+[insert 45] - thanh cong
++ key = 45
++ hash value = 811
++ xung dot = [khong]
+[insert 45] - thanh cong
++ key = 45
++ hash value = 811
++ xung dot = [co]
+[insert 67] - thanh cong
++ key = 67
++ hash value = 408
++ xung dot = [khong]
+[insert 89] - thanh cong
++ key = 89
++ hash value = 5
++ xung dot = [khong]
+[insert 91] - thanh cong
++ key = 91
++ hash value = 241
++ xung dot = [khong]
+[insert 12] - thanh cong
++ key = 12
++ hash value = 416
++ xung dot = [khong]
+[insert 13] - thanh cong
++ key = 13
++ hash value = 34
++ xung dot = [khong]
+[insert 15] - thanh cong
++ key = 15
++ hash value = 270
++ xung dot = [khong]
+[insert 17] - thanh cong
++ key = 17
++ hash value = 506
++ xung dot = [khong]
+[insert 19] - thanh cong
++ key = 19
++ hash value = 742
++ xung dot = [khong]
+[search 45] - tim thay
++ key = 45
++ hash value = 811
++ xung dot = [khong]
+[search 5] - tim thay
++ key = 5
++ hash value = 90
++ xung dot = [khong]
+[search 211] - khong tim thay
++ key = 211
++ hash value = 405
++ xung dot = [co]
+[search 45] - tim thay
++ key = 45
++ hash value = 811
++ xung dot = [co]
+[search 67] - tim thay
++ key = 67
++ hash value = 408
++ xung dot = [khong]
+[search 5] - tim thay
++ key = 5
++ hash value = 90
++ xung dot = [khong]
+[search 13] - tim thay
++ key = 13
++ hash value = 34
++ xung dot = [khong]
+[destructor] - huy bo thanh cong
++ so phan tu xung dot da delete = 1
++ da delete bang T
